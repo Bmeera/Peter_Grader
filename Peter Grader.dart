@@ -16,7 +16,7 @@ void main()
     //Read a non-int score from standard input
     unparsedGradeScore = stdin.readLineSync();
 
-    //Parse read score to in provided it's not null
+    //Parse read score to int provided it's not null
     if (unparsedGradeScore != null) {
       gradeScore = int.parse(unparsedGradeScore);
     }
