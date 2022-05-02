@@ -45,7 +45,7 @@ void main()
     if(!isValidScore)
       print("Invalid Score. Please enter a number between 0 and 100");
   }
-
+  //Print output e.g. Your grade for Mathematics is A
   print("Your grade for $subject is $grade");
 
 
